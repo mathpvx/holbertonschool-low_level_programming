@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -c $CFILE -o $CFILE.o
+FILENAME="${CFILE%.*}"
+gcc -c $CFILE -o $FILENAME.o
