@@ -1,7 +1,11 @@
 #include <stdio.h>
 
 /**
- * This is a function
+ * main - Entry point of the program
+ *
+ * Description: This function prints the specified message and returns 0.
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
