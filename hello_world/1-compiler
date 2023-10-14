@@ -1,2 +1,2 @@
 #!/bin/bash
-FILENAME="${CFILE%.*}" | gcc -c "$CFILE" -o "$FILENAME.o"
+gcc -c "$CFILE" -o "$CFILE.o"
