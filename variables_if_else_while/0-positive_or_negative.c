@@ -2,10 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/* 
- * main - prints if random number is positive, zero or negative 
+/**
+ * main - entry point
  *
- * Return: always (success)
+ * Description: prints if random number is positive, zero or negative
+ *
+ * Return: always 0 (success)
  */
 int main(void)
 {
