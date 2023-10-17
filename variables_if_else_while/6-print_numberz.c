@@ -10,7 +10,7 @@ int main(void)
 {
 	int bt;
 
-	for (bt = '0'; bt < '10'; bt++)
+	for (bt = '0'; bt <= '9'; bt++)
 	{
 	putchar(bt);
 	}
