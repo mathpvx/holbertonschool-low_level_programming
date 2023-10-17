@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
+ * main - prints alphabet except q and e 
  *
+ * Return: always 0 (success)
  */
 
 int main(void)
