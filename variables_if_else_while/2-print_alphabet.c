@@ -2,7 +2,7 @@
 
 /**
  * main - prints the alphabet
- * 
+ *
  * Return: always 0 (success)
  */
 
