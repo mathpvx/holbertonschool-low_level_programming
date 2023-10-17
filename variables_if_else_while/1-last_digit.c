@@ -11,22 +11,19 @@
  */
 int main(void)
 {
-	int n;
+	int n, last_digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	int n, last_digit;
-
-	scanf("%d", &n);
 	last_digit = n % 10;
 	printf("The last digit of %d is %d", n, last_digit);
 	
-	if (n > 5)
+	if (last_digit > 5)
 	{
 	printf("and is greater than 5")
 	}
-	else if (n == 0)
+	else if (last_digit == 0)
 	{
 	printf("and is 0")
 	}
