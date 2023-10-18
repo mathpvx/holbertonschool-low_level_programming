@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	char herve
+	char herve;
 
 	for(herve = 'z'; herve <= 'a'; herve++)
 	{
-	putchar(herve)
+	putchar(herve);
 	}
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
