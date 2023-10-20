@@ -3,10 +3,6 @@
 /**
  * jack_bauer - prints every min of the day
  *
- * @i: first 2 digits
- *
- * @j: last 2 digits
- *
  */
 
 void jack_bauer(void)
