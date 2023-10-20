@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * print_last_digit - makes sense itself
+ * print_last_digit - prints a
  *
  * @n: number
- *
- * @a: last digit
  *
  * Return: a
  */
