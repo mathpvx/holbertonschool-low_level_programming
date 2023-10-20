@@ -1,37 +1,33 @@
 #include "main.h"
 
 /**
+ * jack_bauer - prints every min of the day
+ *
+ * @i: first 2 digits
+ *
+ * @j: last 2 digits
  *
  */
 
 void jack_bauer(void)
 {
-	int a;
-	int b;
-	int c;
-	int d;
-	int e;
-	
-	for (a = 0; a <= 2; a++)
-	{
-		_putchar(a);
-	}
+	int i, j;
 
-	 for (b = 0; b <= 2; b++)
-        {
-                _putchar(b);
-        }
-	  for (c = 0; c <= 2; c++)
-        {
-                _putchar(c);
-        }
-	   for (d = 0; d <= 2; d++)
-        {
-                _putchar(d);
-        }
-	    for (e = 0; e <= 2; e++)
-        {
-                _putchar(e);
-        }
-	    _putchar('\n');
+	i = 0;
+
+	while (i < 24)
+	{
+		j = 0;
+		while (j < 60)
+		{
+			_putchar((i / 10) + '0');
+			_putchar((i % 10) + '0');
+			_putchar(':');
+			_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
+			_putchar('\n');
+			j++;
+		}
+		i++;
+	}
 }
