@@ -2,7 +2,13 @@
 #include <stdio.h>
 
 /**
- * add - adds a and b together and returns the result
+ * add - adds a and b together
+ *
+ * @a: 1st int
+ *
+ * @b: 2nd int
+ *
+ * Return: k
  */
 
 int add(int a, int b)
