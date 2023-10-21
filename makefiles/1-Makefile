@@ -1,11 +1,11 @@
 CC := gcc
 SRC := main.c school.c
+EXECUTABLE := school
 
-all: school
+all: $(EXECUTABLE)
 
-school: $(SRC)
-	$(CC) $(SRC) -o school
+$(EXECUTABLE): $(SRC)
+	$(CC) $^ -o $@
 
 clean:
-	rm -f school
-
+	rm -f $(EXECUTABLE)
