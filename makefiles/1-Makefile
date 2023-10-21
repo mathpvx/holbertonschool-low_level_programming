@@ -1,11 +1,4 @@
-CC := gcc
-SRC := main.c school.c
-EXECUTABLE := school
-
-all: $(EXECUTABLE)
-
-$(EXECUTABLE): $(SRC)
-	$(CC) $^ -o $@
-
-clean:
-	rm -f $(EXECUTABLE)
+CC = gcc
+SRC = main.c holberton.c
+all: $(SRC)
+	$(CC) $(SRC) -o holberton
