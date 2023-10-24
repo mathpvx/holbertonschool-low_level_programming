@@ -6,6 +6,8 @@
  * @str: string
  */
 
+int _strlen(char *s);
+
 void puts_half(char *str)
 {
 	int length = _strlen(str);
@@ -23,4 +25,15 @@ void puts_half(char *str)
 		_putchar(str[i]);
 	}
 	_putchar('\n');
+}
+
+int _strlen(char *s)
+{
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
 }
