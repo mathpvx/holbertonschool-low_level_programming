@@ -6,20 +6,33 @@
  * @str: string
  */
 
-void puts_half(char *str)
-{
-	int lenght = _strlen(str);
+int _strlen(char *s);
 
-	int start = lenght / 2;
+void puts_half(char *s)
+{
+	int length = _strlen(s);
+
+	int start = length / 2;
 
 	int i;
 
-	if (lenght % 2 == 1)
+	if (length % 2 == 1)
 	{
-		start = (lenght - 1)/2;
+		start = (length - 1)/2;
 	}
-	for (i = start; i != '\0'; i++)
+	for (i = start; s[i] != '\0'; i++)
 	{
-		_putchar(str[i]);
+		_putchar(s[i]);
 	}
+}
+
+int _strlen(char *s)
+{
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
 }
