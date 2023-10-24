@@ -4,12 +4,7 @@
  * puts_half - prints the last half of a string
  *
  * @str: string
- *
- * @s: string
- *
  */
-
-int _strlen(char *s);
 
 void puts_half(char *str)
 {
@@ -28,15 +23,4 @@ void puts_half(char *str)
 		_putchar(str[i]);
 	}
 	_putchar('\n');
-}
-
-int _strlen(char *s)
-{
-	int i = 0;
-
-	while (s[i] != '\0')
-	{
-		i++;
-	}
-	return (i);
 }
