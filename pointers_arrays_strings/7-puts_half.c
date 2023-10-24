@@ -3,7 +3,11 @@
 /**
  * puts_half - prints the last half of a string
  *
- * @str: string
+ *_strlen - lenght of the string
+ *
+ * @s: string
+ *
+ * Return: return half
  */
 
 int _strlen(char *s);
@@ -26,6 +30,14 @@ void puts_half(char *str)
 	}
 	_putchar('\n');
 }
+
+/**
+ * _strlen - lenght
+ *
+ * @s: string
+ *
+ * Return: return half
+ */
 
 int _strlen(char *s)
 {
