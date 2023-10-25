@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * *_strcpy - copies and paste a string
+ * _strcpy - copies and paste a string
  *
- * @*dest: point the buffer the string is going to be paste to
+ * @dest: point the buffer the string is going to be paste to
  *
- * @*src: the string that is copied
+ * @src: the string that is copied
  */
 
 char *_strcpy(char *dest, char *src)
@@ -22,6 +22,5 @@ char *_strcpy(char *dest, char *src)
 			dest[i] = src[i];
 		}
 		dest[i] = '\0';
-		
 		return (dest);
 }
