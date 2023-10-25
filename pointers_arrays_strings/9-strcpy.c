@@ -6,6 +6,8 @@
  * @dest: point the buffer the string is going to be paste to
  *
  * @src: the string that is copied
+ *
+ * Return: dest
  */
 
 char *_strcpy(char *dest, char *src)
