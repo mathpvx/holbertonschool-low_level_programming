@@ -8,6 +8,8 @@
  * @src: 2nd string
  *
  * @n: max nbrs
+ *
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
@@ -19,7 +21,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		i++;
 	}
-	while (j < n)
+	while (src[j] != '\0' && j < n)
 	{
 		dest[i] = src[j];
 		j++;
