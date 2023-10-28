@@ -4,6 +4,8 @@
  * cap_string - capitalize the string
  *
  * @s: string
+ *
+ * Return: s
  */
 
 char *cap_string(char *s)
