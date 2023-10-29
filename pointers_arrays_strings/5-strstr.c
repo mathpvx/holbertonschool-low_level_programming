@@ -7,6 +7,8 @@
  * @haystack: larger string
  *
  * @needle: substring
+ * 
+ * Return: null
  */
 
 char *_strstr(char *haystack, char *needle)
