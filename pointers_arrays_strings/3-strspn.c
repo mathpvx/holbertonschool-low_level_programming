@@ -3,7 +3,11 @@
 /**
  * _strspn - returns nmb of bytes of s from accept
  *
- * @accept: char with the bytes searched in s 
+ * @s: string
+ *
+ * @accept: char with the bytes searched in s
+ *
+ * Return: f if k == 0, else 0
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -15,7 +19,7 @@ unsigned int _strspn(char *s, char *accept)
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		k = 0;
-		
+
 		for (j = 0; accept[j] != '\0'; j++)
 		{
 			if (s[i] == accept[j])
