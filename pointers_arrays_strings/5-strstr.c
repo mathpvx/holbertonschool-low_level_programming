@@ -7,7 +7,7 @@
  * @haystack: larger string
  *
  * @needle: substring
- * 
+ *
  * Return: null
  */
 
