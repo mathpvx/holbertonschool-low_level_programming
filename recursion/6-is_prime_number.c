@@ -24,6 +24,8 @@ int is_prime_number(int n)
  * @n: number
  *
  * @i: iterates
+ *
+ * Return: 0
  */
 int the_prime(int n, int i)
 {
