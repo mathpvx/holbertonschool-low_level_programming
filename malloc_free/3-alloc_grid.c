@@ -2,7 +2,13 @@
 #include "main.h"
 
 /**
+ * alloc_grid - returns a pointer to a 2 dimensional array of int
  *
+ * @width: width table
+ *
+ * @height: height table
+ *
+ * Return: NULL if fail, table if success
  */
 
 int **alloc_grid(int width, int height)
