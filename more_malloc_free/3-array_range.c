@@ -9,7 +9,7 @@
  *
  * @max: the end
  *
- * Return: arr if success, NULL if fail 
+ * Return: arr if success, NULL if fail
  */
 
 int *array_range(int min, int max)
