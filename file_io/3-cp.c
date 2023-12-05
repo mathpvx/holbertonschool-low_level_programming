@@ -26,7 +26,7 @@ int init_exit(int number, char *arg, int fd)
 			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
 			break;
 		default:
-			return 0;
+			return (0);
 	}
 	exit(number);
 }
@@ -67,5 +67,5 @@ int main(int argc, char *argv[])
 	if (close(file_from) == -1 || close(file_to) == -1)
 		init_exit(100, NULL, file_from);
 
-	return 0;
+	return (0);
 }
