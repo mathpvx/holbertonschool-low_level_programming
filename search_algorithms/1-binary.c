@@ -25,9 +25,9 @@ int binary_search(int *array, size_t size, int value)
 
 			for (i = start; i <= end; i++)
 			{
-				if (array[i] != end)
+				if (i < end)
 					printf(" %d,", array[i]);
-				if (array[i] == end)
+				if (i == end)
 					printf(" %d\n", array[i]);
 			}
 
