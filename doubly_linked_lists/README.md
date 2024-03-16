@@ -14,7 +14,7 @@ A project focusing on the implementation of doubly linked lists in C.
 - Prototypes of all functions should be included in the header file `lists.h`
 - All header files should be include guarded
 
-## Tasks
+## Tasks Examples
 0. **Print list**
    - Write a function that prints all the elements of a `dlistint_t` list.
    - Prototype: `size_t print_dlistint(const dlistint_t *h);`
