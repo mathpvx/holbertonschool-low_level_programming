@@ -16,15 +16,6 @@ Write a program that prints its name, followed by a new line.
 * You should not remove the path before the name of the program
 
 
-```
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ gcc -Wall -pedantic -Werror -Wextra 0-whatsmyname.c -o mynameis
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./mynameis 
-./mynameis
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ mv mynameis mynewnameis
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./mynewnameis 
-./mynewnameis
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$
-```
 
 ## Silence is argument carried out by other means
 
@@ -32,41 +23,13 @@ Write a program that prints the number of arguments passed into it.
 
 * Your program should print a number, followed by a new line
 
-```
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ gcc -Wall -pedantic -Werror -Wextra 1-args.c -o nargs
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./nargs 
-0
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./nargs hello
-1
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./nargs "hello, world"
-1
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./nargs hello, world
-2
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$
-```
-
 ## The best argument against democracy is a five-minute conversation with the average voter
 
 Write a program that prints all arguments it receives.
 
 * All arguments should be printed, including the first one
 * Only print one argument per line, ending with a new line
-
-```
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ gcc -Wall -pedantic -Werror -Wextra 2-args.c -o args
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./args 
-./args
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./args You can do anything, but not everything.
-./args
-You
-can
-do
-anything,
-but
-not
-everything.
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ 
-```
+  
 
 ## Neither irony nor sarcasm is argument
 
@@ -76,20 +39,6 @@ Write a program that multiplies two numbers.
 * You can assume that the two numbers and result of the multiplication can be stored in an integer
 * If the program does not receive two arguments, your program should print `Error`, followed by a new line, and return `1`
   
-```
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ gcc -Wall -pedantic -Werror -Wextra 3-mul.c -o mul
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./mul 2 3
-6
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./mul 2 -3
--6
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./mul 2 0
-0
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./mul 245 3245342
-795108790
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./mul
-Error
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ 
-```
 
 ## To infinity and beyond
 
@@ -100,16 +49,3 @@ Write a program that adds positive numbers.
 * If one of the number contains symbols that are not digits, print `Error`, followed by a new line, and return `1`
 * You can assume that numbers and the addition of all the numbers can be stored in an `int`
 
-
-```
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ gcc -Wall -pedantic -Werror -Wextra 4-add.c -o add
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./add 1 1
-2
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./add 1 10 100 1000
-1111
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./add 1 2 3 e 4 5
-Error
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ ./add
-0
-$ amonkeyprogrammer@ubuntu:~/0x0A. argc, argv$ 
-```
