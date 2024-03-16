@@ -33,7 +33,7 @@ Here is the complete list of projects in this repository, each project has its d
 * [0x07. C - Even more pointers, arrays and strings](https://github.com/mathpvx/holbertonschool-low_level_programming/tree/master/0x07-pointers_arrays_strings)
 * [0x08. C - Recursion](https://github.com/mathpvx/holbertonschool-low_level_programming/tree/master/0x08-recursion)
 * [0x09. C - Static libraries](https://github.com/mathpvx/holbertonschool-low_level_programming/tree/master/0x09-static_libraries)
-* [0x0A. C - argc, argv](https://github.com/mathpvx/holbertonschool-low_level_programming/tree/master/0x0A-argc_argv)
+* [0x0A. C - argc, argv]([https://github.com/mathpvx/holbertonschool-low_level_programming/tree/master/0x0A-argc_argv])(https://github.com/mathpvx/holbertonschool-low_level_programming/tree/master/argc_argv))
 * [0x0B. C - malloc, free](https://github.com/mathpvx/holbertonschool-low_level_programming/tree/master/0x0B-malloc_free)
 * [0x0C. C - More malloc, free](https://github.com/mathpvx/holbertonschool-low_level_programming/tree/master/0x0C-more_malloc_free)
 * [0x0D. C - Preprocessor](https://github.com/mathpvx/holbertonschool-low_level_programming/tree/master/0x0D-preprocessor)
