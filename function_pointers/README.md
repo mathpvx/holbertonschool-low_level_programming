@@ -39,6 +39,6 @@ Write a program that performs simple operations.
 - `3-get_op_func.c`: Function to select the correct operation function based on operator.
 - `3-main.c`: Main function to parse arguments and perform calculations.
 
-## Compilation and Examples
+## Compilation
 ```bash
 $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-op_functions.c 3-get_op_func.c -o calc
