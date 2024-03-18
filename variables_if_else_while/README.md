@@ -16,7 +16,7 @@ This project focuses on the fundamentals of C programming, including arithmetic 
 - printf: Printing the values of variables using printf.
 - ASCII character set: Understanding the ASCII character set and its purpose in C programming.
 
-## Tasks
+## Tasks Examples
 ### 0. Positive anything is better than negative nothing
 Write a program that assigns a random number to a variable `n` and prints whether the number is positive, negative, or zero.
 
