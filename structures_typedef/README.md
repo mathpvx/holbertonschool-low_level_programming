@@ -1,7 +1,5 @@
 # C - Structures, typedef
 
-![Holberton logo](https://www.holbertonschool.com/holberton-logo.png)
-
 ## Description
 In this project, we explore structures and typedef in C programming. Structures allow us to group related data under one name, making it easier to manage and manipulate complex data. Additionally, typedef provides a way to create aliases for existing data types, enhancing code readability and maintainability.
 
