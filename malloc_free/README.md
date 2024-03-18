@@ -23,12 +23,12 @@ In this project, we explore the concepts of dynamic memory allocation in C using
 - Do not forget to push `main.h` to your repository
 
 ## Tasks
-0. `create_array`:
-   - Prototype: `char *create_array(unsigned int size, char c);`
-   - Description: Creates an array of characters of a specified size and initializes each element with the given character.
-   - Returns: Pointer to the array, or `NULL` if it fails. Returns `NULL` if `size = 0`.
+0. `Trust no one`:
+   - Prototype: `void *malloc_checked(unsigned int b);`
+   - Description: Allocates memory using `malloc`. If `malloc` fails, the function terminates the program with an exit status of 98.
+   - Returns: Pointer to the allocated memory.
 
-1. `alloc_grid`:
-   - Prototype: `int **alloc_grid(int width, int height);`
-   - Description: Returns a pointer to a 2-dimensional array of integers with each element initialized to 0.
-   - Returns: Pointer to the allocated grid, or `NULL` if width or height is 0 or negative.
+3. `array_range`:
+   - Prototype: `int *array_range(int min, int max);`
+   - Description: Creates an array of integers containing values from `min` to `max` (inclusive), ordered from `min` to `max`.
+   - Returns: Pointer to the newly created array. If `min > max`, or if `malloc` fails, returns `NULL`.
